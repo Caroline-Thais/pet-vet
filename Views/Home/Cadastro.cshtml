@@ -1,0 +1,42 @@
+@model Agendamento
+
+@{
+    ViewData["Title"] = "Marque a consulta";
+}
+
+<style>
+    body {
+        background-color: #f3ecc026;
+        line-height: 1.8;
+        font-family: sans-serif;
+        font-size: medium;
+    }
+</style>
+
+<form method="POST">
+    <p>
+            <label asp-for="Nome">Nome:</label>
+            <input asp-for="Nome" />
+        </p>
+        <p>
+            <label asp-for="Telefone">Telefone:</label>
+            <input asp-for="Telefone" />
+        </p>
+        <p>
+            <label asp-for="Animal">Animal:</label>
+            <select asp-for="Animal">
+                <option value="Gato">Gato</option>
+                <option value="Cachorro">Cachorro</option>
+                <option value="outro">outro</option>
+            </select>
+        </p>
+        <p>
+            <label asp-for="Data">Data:</label>
+            <input asp-for="Data" />
+        </p>
+        <p>
+            <label asp-for="Necessidade">Necessidade:</label>
+            <input asp-for="Necessidade" />
+        </p>
+         <input type="submit" value="Enviar" />
+</form>

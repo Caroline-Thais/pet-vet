@@ -1,0 +1,45 @@
+@model List<Agendamento>
+
+    <style>
+    body {
+        background-color: #f3ecc026;
+        line-height: 1.8;
+        font-family: sans-serif;
+        font-size: medium;
+    }
+    table {
+        text-align: center;
+        line-height: 2;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+</style>
+
+    <h2> Consultas pré-agendadas </h2>
+<table border="1">
+   <thead>
+       <tr>
+           <th>Nome</th>
+           <th>Telefone</th>
+           <th>Animal</th>
+           <th>Data</th>
+           <th>Necessidade</th>
+       </tr>
+   </thead>
+   <tbody>
+       @foreach(Agendamento a in Model)
+       {
+       <tr>
+           <td>@a.Nome</td>
+           <td>@a.Telefone</td>
+           <td>@a.Animal</td>
+           <td>@a.Data</td>
+           <td>@a.Necessidade</td>
+       </tr>
+       }
+   </tbody>
+</table>
+
+<a asp-action="Cadastro">Cadastrar nova consulta</a>
