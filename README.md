@@ -1,4 +1,7 @@
 # pet-vet
+Site de clínica veterinária em que clientes podem marcar consultas.<br>
+Tecnologias: C# .NET
+---
 Veterinary clinic website where clients can schedule appointments for their pets online.<br>
 c# .net 
 
