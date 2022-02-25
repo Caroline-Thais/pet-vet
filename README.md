@@ -4,6 +4,7 @@ Tecnologias: C# .NET
 ---
 Veterinary clinic website where clients can schedule appointments for their pets online.<br>
 c# .net 
+<p><img src="https://img.icons8.com/plasticine/344/stack-of-photos.png" height="40em"> Galeria:</p>
 
 ![petvet1](https://user-images.githubusercontent.com/76595905/151565024-729a490f-fd69-4f67-b6b3-f74c3889b068.PNG)
 ![petvet2](https://user-images.githubusercontent.com/76595905/151565030-e0852a4a-098a-4162-9c82-21828a65e1de.PNG)
